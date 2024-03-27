@@ -1,0 +1,26 @@
+@import '../../variables.css';
+
+.toggleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 63px;
+  height: 30px;
+  background-color: var(--color-green);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.text {
+  color: var(--color-black);
+  font-weight: bold;
+}
+
+.ball {
+  width: 26px;
+  height: 26px;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  transition: 0.3s;
+}

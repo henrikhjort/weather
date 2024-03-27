@@ -1,0 +1,58 @@
+@import './variables.css';
+
+.App {
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+  min-height: 100vh;
+  background-image: linear-gradient(var(--color-brown), var(--color-navy));
+  @media (max-width:600px) {
+    flex-direction: column;
+    background-image: linear-gradient(var(--color-brown), var(--color-navy));
+  }
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 16px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 16px;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  width: 100%;
+  min-height: 150px;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.third-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 10%;
+  flex: 5;
+  width: 100%;
+}

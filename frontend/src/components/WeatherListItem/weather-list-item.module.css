@@ -1,0 +1,49 @@
+@import '../../variables.css';
+
+.listItem {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 10px;
+  border: 2px solid var(--color-light-blue);
+  cursor: pointer;
+  margin-bottom: 16px;
+  min-height: 50px;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 4;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 16px;
+}
+
+.labelContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+  flex: 3;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.tempContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+

@@ -1,0 +1,12 @@
+:root {
+  --color-brown: rgba(148, 71, 0, 0.67);
+  --color-black: #00050c;
+  --color-grey: #717171;
+  --color-white: #FFFFFF;
+  --color-light-grey: #CBCBCB;
+  --color-green: #65ae6c;
+  --color-navy: #03275c;
+  --color-light-blue: #4f6a94;
+
+  --text-weight-bold: 700;
+}

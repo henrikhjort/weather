@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import 'variables.css';
+
+body {
+  margin: 0;
+  font-family: 'Inter';
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+}

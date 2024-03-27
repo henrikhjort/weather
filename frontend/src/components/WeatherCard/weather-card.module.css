@@ -1,0 +1,40 @@
+@import '../../variables.css';
+
+.weatherCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  color: var(--color-white);
+}
+
+.weatherCardTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.weatherCardTitle h1 {
+  margin: 0;
+}
+
+.minMaxRainRow {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.tempWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.tempWrapper > * {
+  padding: 0 2px; /* Adjust the value as needed */
+}

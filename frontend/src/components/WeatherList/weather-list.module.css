@@ -1,0 +1,14 @@
+@import '../../variables.css';
+
+.weatherList {
+  width: 60%;
+  gap: 10px;
+  color: var(--color-white);
+  @media (max-width:600px) {
+    width: 100%;
+  }
+}
+
+.weatherList h2 {
+  margin-top: 0;
+}
